@@ -6,12 +6,7 @@
 let Numeri = " ";
 
 
-
-
 for (let i = 0; i < 100; i++) {
-
-  
-  
 
   if ( i % 3 === 0 ){
     
@@ -23,18 +18,12 @@ for (let i = 0; i < 100; i++) {
     Numeri += "FizBuzz";
   } else {
     Numeri += i;
-  }
-
+  } 
   
-
 }
 
 let text = document.getElementById("numeri").innerHTML = `${Numeri}`;
 
-let ul = document.getElementById(lista);
-let li = document.createElement("li");
-
-ul.append(li);
 
 
 
