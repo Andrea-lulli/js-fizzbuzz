@@ -29,7 +29,7 @@ for (let i = 0; i < 100; i++) {
 
 }
 
-let text = document.getElementById("numeri").innerHTML = `<p>${Numeri}</p>`;
+let text = document.getElementById("numeri").innerHTML = `${Numeri}`;
 
 let ul = document.getElementById(lista);
 let li = document.createElement("li");
