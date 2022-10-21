@@ -6,7 +6,11 @@
 let Numeri = " ";
 
 
+
+
 for (let i = 0; i < 100; i++) {
+
+  
   
 
   if ( i % 3 === 0 ){
@@ -21,9 +25,16 @@ for (let i = 0; i < 100; i++) {
     Numeri += i;
   }
 
+  
+
 }
 
-let text = document.getElementById("numeri").innerHTML = Numeri
+let text = document.getElementById("numeri").innerHTML = `<p>${Numeri}</p>`;
+
+let ul = document.getElementById(lista);
+let li = document.createElement("li");
+
+ul.append(li);
 
 
 
