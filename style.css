@@ -1,4 +1,28 @@
-/* conteiner generale */
+/* conteinebox-jsr generale */
 
 
+.box-js{
+    background-color: brown;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    margin: 10px 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
 
+.conteiner{
+    width: 50vw;
+    height: 50vh;
+    align-items: center;
+    
+}
+
+.conteiner1{
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+
+}
