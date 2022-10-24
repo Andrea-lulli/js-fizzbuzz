@@ -12,9 +12,11 @@ for (let i = 0; i < 100; i++) {
   let divNuovo = document.createElement("div");
   divNuovo.classList.add("box-js");
   
-  
+  if ( i % 3 === 0 && i % 5 === 0 ) {
+    divNuovo.innerHTML  += "FizBuzz";
+    console.log(divNuovo); }
 
-   if ( i % 3 === 0 ){
+   else if ( i % 3 === 0 ){
     
      divNuovo.innerHTML += "Fizz" ;
      divNuovo.classList.add("red")
@@ -25,11 +27,7 @@ for (let i = 0; i < 100; i++) {
     divNuovo.classList.add("yellow")
     console.log(divNuovo); 
 
-   } else if ( i % 3 === 0 && i % 5 === 0 ) {
-    divNuovo.innerHTML  += "FizBuzz";
-    console.log(divNuovo); 
-
-   } else {
+   }  else {
     divNuovo.innerHTML  += i;
     console.log(divNuovo); 
 
@@ -40,6 +38,9 @@ for (let i = 0; i < 100; i++) {
 
 
 }
+
+
+
 
 
 
