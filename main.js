@@ -11,30 +11,33 @@ for (let i = 0; i < 100; i++) {
 
   let divNuovo = document.createElement("div");
   divNuovo.classList.add("box-js");
-  
-  if ( i % 3 === 0 && i % 5 === 0 ) {
-    divNuovo.innerHTML  += "FizBuzz";
-    console.log(divNuovo); }
 
-   else if ( i % 3 === 0 ){
-    
-     divNuovo.innerHTML += "Fizz" ;
-     divNuovo.classList.add("red")
-     console.log(divNuovo); 
-    
-   } else if ( i % 5 === 0 ) {
-    divNuovo.innerHTML  += "Buzz";
+  if (i % 3 === 0 && i % 5 === 0) {
+    divNuovo.innerHTML += "FizBuzz";
+    divNuovo.classList.add("green")
+    console.log(divNuovo);
+  }
+
+  else if (i % 3 === 0) {
+
+    divNuovo.innerHTML += "Fizz";
+    divNuovo.classList.add("red")
+    console.log(divNuovo);
+
+  } else if (i % 5 === 0) {
+    divNuovo.innerHTML += "Buzz";
     divNuovo.classList.add("yellow")
-    console.log(divNuovo); 
+    console.log(divNuovo);
 
-   }  else {
-    divNuovo.innerHTML  += i;
-    console.log(divNuovo); 
+  } else {
+    divNuovo.innerHTML += i;
+    divNuovo.classList.add("blue")
+    console.log(divNuovo);
 
-   } 
+  }
 
-   
-   document.getElementById("numeri").append(divNuovo);
+
+  document.getElementById("numeri").append(divNuovo);
 
 
 }

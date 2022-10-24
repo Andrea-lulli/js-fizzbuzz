@@ -1,24 +1,27 @@
 /* conteinebox-jsr generale */
 :root {
-    --num-col: 10;   
+    --num-col: 10;
 }
 
-.box-js{
+.box-js {
     background-color: brown;
-    width: calc(100% / var(--num-col) - 5px);   
+    width: calc(100% / var(--num-col) - 5px);
     aspect-ratio: 1 / 1;
     display: flex;
     margin-bottom: 5px;
     justify-content: center;
     align-items: center;
-    margin-left: 5px;   
+    margin-left: 5px;
 }
 
 
-.conteiner{
+.conteiner {
     justify-content: center;
     background-color: blue;
     align-items: center;
-    width: 100vw;
     height: 100%;
+}
+
+.conteiner1 {
+    width: 70%;
 }
