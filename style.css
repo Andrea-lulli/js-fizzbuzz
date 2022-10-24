@@ -4,7 +4,7 @@
 }
 
 .box-js {
-    background-color: brown;
+    
     width: calc(100% / var(--num-col) - 5px);
     aspect-ratio: 1 / 1;
     display: flex;
@@ -24,4 +24,20 @@
 
 .conteiner1 {
     width: 70%;
+}
+
+.green{
+background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.blue{
+    background-color: lightsteelblue;
+}
+
+.red{
+    background-color: red;
 }
